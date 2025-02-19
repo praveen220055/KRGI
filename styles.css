@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container to center content */
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Center headings */
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Media section styling */
+  .media-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Media item styling for both GIF and Video */
+  .media-item {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Optional: add some spacing around sections */
+  .gif-section, .video-section {
+    padding: 10px;
+  }
+  
